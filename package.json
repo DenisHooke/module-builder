@@ -1,0 +1,24 @@
+{
+  "name": "module-builder",
+  "version": "0.9.0",
+  "description": "Magic number detector for javascript",
+  "keywords": [
+    "react",
+    "create-react-app",
+    "structure of modules",
+    "builder",
+    "cli",
+    "tool"
+  ],
+  "main": "index.js",
+  "bin": {
+    "module-builder": "./module-builder.js"
+  },
+  "author": "Denis Hooke <denis.hooke@gmail.com>",
+  "licenses": [
+    "MIT"
+  ],
+  "dependencies": {
+    "inquirer": "^6.2.0"
+  }
+}
