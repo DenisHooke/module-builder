@@ -1,7 +1,7 @@
 import reducer from './reducer';
 import routes from './routes';
 import moduleConfig from './config';
-import { Module } from '../core';
+import { Module } from '../core/index';
 import './template';
 
 const module = globalConfig => (
