@@ -60,28 +60,28 @@ inquirer.prompt(questions).then(answers => {
 
     // 3 Copy reducer if it's needed
     if (answers.reducer) {
-        helpers.copyFolderRecursiveSync(path.resolve(__dirname, '../module/reducer'), modulePath);
+        helpers.copyFolderRecursiveSync(path.resolve(__dirname, './module/reducer'), modulePath);
     }
 
     // 4 Copy actions if it's needed
     if (answers.actions) {
-        helpers.copyFolderRecursiveSync(path.resolve(__dirname, '../module/actions'), modulePath);
+        helpers.copyFolderRecursiveSync(path.resolve(__dirname, './module/actions'), modulePath);
     }
 
     // 5 Copy component structure
     if (answers.components) {
-        helpers.copyFolderRecursiveSync(path.resolve(__dirname, '../module/components'), modulePath);
+        helpers.copyFolderRecursiveSync(path.resolve(__dirname, './module/components'), modulePath);
     }
 
     // 6 Copy routing file
     if (answers.routing) {
-        helpers.copyFileSync(path.resolve(__dirname, '../module/routes.js'), modulePath);
+        helpers.copyFileSync(path.resolve(__dirname, './module/routes.js'), modulePath);
     }
 
     // 7 Copy index file, template.js and other not obligatory files for module
-    helpers.copyFileSync(path.resolve(__dirname, '../module/index.js'), modulePath);
-    helpers.copyFileSync(path.resolve(__dirname, '../module/config.js'), modulePath);
-    helpers.copyFileSync(path.resolve(__dirname, '../module/template.js'), modulePath);
+    helpers.copyFileSync(path.resolve(__dirname, './module/index.js'), modulePath);
+    helpers.copyFileSync(path.resolve(__dirname, './module/config.js'), modulePath);
+    helpers.copyFileSync(path.resolve(__dirname, './module/template.js'), modulePath);
 
     // Patch file
     var indexFile = fs.readFileSync(modulePath + '/index.js')

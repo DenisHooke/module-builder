@@ -1,6 +1,6 @@
 {
   "name": "cram-builder",
-  "version": "0.9.3",
+  "version": "0.9.5",
   "description": "CRAM Builder - this's a script for `create-react-app-module` package which helps to build new feature-modules. Just build your own app with isolated structure. ",
   "homepage": "https://github.com/DenisHooke/module-builder",
   "keywords": [
