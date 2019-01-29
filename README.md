@@ -4,6 +4,13 @@ This's a small script which helps to build new feature-modules for `react-module
 
 ### Installation
 It can be installed via `npm` using:
-```
+
+```js
 npm install module-builder
+```
+
+### Running Script
+
+```js
+node ./bin/module-builder.js
 ```
