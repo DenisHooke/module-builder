@@ -13,7 +13,7 @@ npm i create-react-app-module-builder
 ### Running Script
 
 ```bash
-node ./bin/module-builder.js
+node ./bin/cram-builder.js
 ```
 
 ### Usage
