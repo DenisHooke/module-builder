@@ -1,10 +1,10 @@
 {
-  "name": "create-react-app-module-builder",
-  "version": "0.9.1",
-  "description": "Magic number detector for javascript",
+  "name": "cram-builder",
+  "version": "0.9.2",
+  "description": "CRAM Builder - this's a script for `create-react-app-module` package which helps to build new feature-modules. Just build your own app with isolated structure. ",
   "keywords": [
     "react",
-    "create-react-app",
+    "create-react-app-module",
     "structure of modules",
     "builder",
     "cli",
