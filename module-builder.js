@@ -2,7 +2,7 @@
 'use strict';
 var fs = require('fs');
 var path = require('path');
-var helpers = require('../index');
+var helpers = require('./index');
 var inquirer = require('inquirer');
 
 var questions = [
