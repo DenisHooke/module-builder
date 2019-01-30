@@ -1,5 +1,5 @@
 # CRAM Builder
-**CRAM Builder** - this's a script for `create-react-app-module` package which helps to build new feature-modules. 
+**CRAM Builder** - this's a helpder-script for [Create React App Module](https://github.com/facebook/create-react-app) boilerplate which helps to build new feature-modules.
 
 Just build your own app with isolated structure. 
 
@@ -7,7 +7,7 @@ Just build your own app with isolated structure.
 It can be installed via `npm` using:
 
 ```bash
-npm i create-react-app-module-builder
+npm i cram-builder
 ```
 
 ### Running Script

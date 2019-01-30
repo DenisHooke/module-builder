@@ -18,12 +18,8 @@ var questions = [
         message: "What\'s the name of the module?",
         default: 'awesome',
         validate: function(value) {
-            var pass = true;
-            if (pass) {
-                return true;
-            }
-
-            return 'Please enter a module name (without any special symbols)';
+            // return 'Please enter a module name (without any special symbols)';
+            return true;
         }
     },
     {

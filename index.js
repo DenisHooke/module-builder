@@ -15,7 +15,7 @@ function makeDir(dir) {
 };
 
 /**
- *
+ * Copying file
  * @param source
  * @param target
  */
@@ -34,7 +34,7 @@ function copyFileSync(source, target) {
 }
 
 /**
- *
+ * Copying folder and files recursively
  * @param source
  * @param target
  */
@@ -61,6 +61,11 @@ function copyFolderRecursiveSync(source, target) {
     }
 }
 
+/**
+ * Capitalize first letter to string
+ * @param string
+ * @returns {string}
+ */
 function capitalizeFirstLetter(string) {
     return string.charAt(0).toUpperCase() + string.slice(1);
 }
