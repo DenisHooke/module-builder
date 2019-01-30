@@ -1,5 +1,5 @@
 # CRAM Builder
-**CRAM Builder** - this's a helpder-script for [Create React App Module](https://github.com/facebook/create-react-app) boilerplate which helps to build new feature-modules.
+**CRAM Builder** - this's a helpder-script for [Create React App Module](https://github.com/DenisHooke/create-react-app-module) boilerplate which helps to build new feature-modules.
 
 Just build your own app with isolated structure. 
 
